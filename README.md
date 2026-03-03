@@ -85,3 +85,19 @@ Enfin, un client peut recommander un autre client lors de son inscription.
 
 - Un **fichier Looping (.loo)** contenant le MCD.  
 - Le modèle doit être **lisible**, **cohérent** et **conforme à la méthode Merise**.
+
+============
+ 
+Chaque produit appartient à une seule catégorie de produit
+Chaque fournisseur appartient à une seule catégorie de fournisseur
+Une commande peut avoir une facture
+Un client peut avoir une carte de fidélité
+ 
+Définition de la cardinalité : 
+====================
+ 
+Une cardinalité précise le nombre minimum et maximum de relations possibles entre deux entités .
+ 
+   _ Cardinaité (1,1)
+
+Un client peut recommander un autre client
